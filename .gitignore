@@ -1,6 +1,9 @@
 target
 .claude/worktrees/
 
+# macOS Finder metadata
+.DS_Store
+
 # MkDocs build output
 /site/
 # Build artefacts from `make deb/rpm/image`. The image build also writes a
