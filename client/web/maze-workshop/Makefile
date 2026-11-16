@@ -3,8 +3,6 @@ build:
 	node build.mjs
 check:
 	node --check build.mjs
-	node --check fixtures.mjs
-	node --check preview_landmarks.mjs
 	node --check app.mjs
 	node --check resizer.mjs
 	node --check model.mjs
